@@ -1058,12 +1058,13 @@ border-radius: 4px;
 cursor: pointer;
 
 }
-.form-field:hover,
-.form-field:focus{
+
+.form-label:focus-within>.form-icon {
   border: 1px solid rgba(33, 150, 243, 1);
   color: #188CE8;
+  border-radius: 4px;
   
-}
+} 
 
 
 /* .form-input:hover,
