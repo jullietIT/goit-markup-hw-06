@@ -1094,7 +1094,7 @@ textarea{
   display: flex;
 
  
-  margin-top: 40px;
+  margin-top: 30px;
   color: var(--accent-color);
   background-color:rgba(33, 150, 243, 1);
 
@@ -1116,8 +1116,15 @@ transform: translate(-50%, 0);
 box-sizing:content-box;
    border-radius: 2px;
  fill: none;
+ 
 
 }
+
+
+.form-field-checkbox{
+  margin-top: 25px;
+}
+
 .form-icon-check:hover,
 .form-icon-check:focus{
  background-color: #2196F3;
