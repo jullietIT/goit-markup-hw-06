@@ -1120,6 +1120,7 @@ box-sizing: border-box;
 .form-icon-check:focus{
  background-color: #2196F3;
  border: none;
+ background-size: contain;
 }
 
 .form-checkbox{
