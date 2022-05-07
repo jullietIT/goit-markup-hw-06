@@ -306,6 +306,7 @@ text-align: center;
 .button-service:hover,
 .button-service:focus {
   background-color: #188CE8;
+
 }
 /*Особенности*/
 
@@ -1009,6 +1010,7 @@ color: #188CE8;
   top: 50%;
   left:0px;
   transform: translateY(-160%);
+  pointer-events
 }
 
   .form-icon{
@@ -1060,9 +1062,10 @@ cursor: pointer;
 }
 
 .form-label:focus-within>.form-icon {
-  border: 1px solid rgba(33, 150, 243, 1);
+  /* border: 1px solid rgba(33, 150, 243, 1); */
   color: #188CE8;
   border-radius: 4px;
+  border:2px solid #2196F3;
   
 } 
 
