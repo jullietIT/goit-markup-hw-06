@@ -33,7 +33,7 @@
 
 .header{
    border-bottom: 1px solid #ECECEC;
-   /* z-index: 10; */
+ 
   }
 
   li{
@@ -981,6 +981,7 @@ border: 1px solid var(--logo-color);
 
 
 .form-field{
+
   position: relative;
   margin-top: 28px; ;
 }
@@ -1107,7 +1108,7 @@ transform: translate(-50%, 0);
 }
 
 .form-icon-check{
-
+  display: inline-block;
   width: 16px;
   height: 15px;
    color:var(--accent-color);
@@ -1136,6 +1137,8 @@ box-sizing:content-box;
 }
 .form-checkbox-link{
   color: var(--logo-color);
+  text-decoration: underline;
+  /* line-height:1.1; */
 }
 
 
