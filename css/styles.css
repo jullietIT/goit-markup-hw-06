@@ -1108,14 +1108,16 @@ transform: translate(-50%, 0);
 
 .form-icon-check{
    color:var(--accent-color);
-   background-color:rgba(33, 33, 33, 1); 
+  border: 2px solid rgba(33, 33, 33, 1); 
+box-sizing: border-box;
    border-radius: 2px;
+ fill: none;
 
 }
 .form-icon-check:hover,
 .form-icon-check:focus{
-  background-color: #2196F3;
-border-radius: 2px;
+ background-color: #2196F3;
+ border-radius: 2px;
 }
 
 .form-checkbox{
