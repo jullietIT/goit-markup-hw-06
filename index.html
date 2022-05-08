@@ -464,31 +464,41 @@
                     
                 
                 <div class="form-field__comment">
-                        <label class="form__label form-label__comment" for="comment">Комментарий</label>
-                              <textarea class="form-input__comment" 
+                        <label class="form__label comment__label" for="comment">Комментарий</label>
+                              <textarea class="comment__textarea" 
                               name="comment"
                               id="comment"
                               placeholder="Введите текст"></textarea>
                  
                 </div>
                 
-                <div class="form-field-checkbox ">
-                
-                  <input class="checkbox" type="checkbox" id="checkbox" 
+
+
+                <div class="checkbox__form ">
+                                                 
+                        
+                        <input class="checkbox__input visually-hidden"
+                              type="checkbox" 
+                              id="checkbox" 
+                            name="checkbox">
+
+                        <svg class="checkbox__icon" width="16" height="15">
+                          <use href="./images/icons.svg#check"></use>
+                        </svg>
+                        
+                        <label class="checkbox__label" 
+                            for="checkbox"> 
+                            Соглашаюсь с рассылкой и принимаю 
+                            <a href="" class="checkbox__link"> Условия договора</a> 
+                      </label>
+                  
+
+                  <!-- <input class="checkbox" type="checkbox" id="checkbox" 
                    type="checkbox"
                    name="checkbox" 
                   id="checkbox"> 
                   <label class="form-checkbox" for="checkbox"> Соглашаюсь с рассылкой и принимаю <a href="" class="form-checkbox-link"> Условия договора</a> </label>
-                  <span class="form__checkbox-span"></span>
-
-
-                  
-                        <!-- <input class="form-checkbox visually-hidden" >
-                  <svg class="form-icon-check" width="16" height="15">
-                    <use href="./images/icons.svg#check"></use>
-                  </svg> -->
-
-                 
+                  <span class="form__checkbox-span"></span> -->
                 </div>
                   
                  
