@@ -1203,10 +1203,6 @@ display:inline-block;
 
   }
 
-  .checkbox__input:checked{
-    width: 56px;
-    height: 55px;
-  }
 
   .checkbox__icon{
     display:inline-block;
