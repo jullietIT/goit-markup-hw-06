@@ -1220,6 +1220,7 @@ display:inline-block;
   }
   .checkbox__icon:checked{
     background-color:var(--logo-color);
+    background-image:url(/images/SVG/icon_check.svg)
   }
   
   .checkbox__link{
