@@ -1049,10 +1049,13 @@ color: #188CE8;
   color: rgba(117, 117, 117, 1);
 
   }
-  .form__label:focus+.form__input{
+  .form__input:focus+.form__icon{
     color: var(--logo-color);
   }
-  
+  .form__label:checked + .form__input{
+  color: #188CE8;
+  }
+
 
 .form__icon{
   position:absolute;
