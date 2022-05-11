@@ -1019,6 +1019,7 @@ border: 1px solid var(--logo-color);
 
 
 
+
 .form-field{
   position: relative;
   margin-bottom: 10px;
@@ -1026,23 +1027,19 @@ border: 1px solid var(--logo-color);
 
 }
 
-/* 6.2 48:41 */
-.form-field:focus-within>.form-icon{
-color: #188CE8;
-
-
-}
-
 .form__label{
   display: block;
   left:14px;
- padding-top:10px;
   font-size:  12px;
   line-height:1.2;
-  color: color: #757575;
-
+  color: #757575;
   }
 
+  
+  .form__label:focus + .form__input{
+    color:var(--logo-color)
+  }
+  
   .form__input{
 margin-top: 4px;
   }
